@@ -1,33 +1,30 @@
-name: Compilacion Imperial Cosmo
+name: Build Cosmo APK
 
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+    branches: [ "main" ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Descargando Codigo del Imperio
-      uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: Configurando Java (Motor)
-      uses: actions/setup-java@v2
-      with:
-        java-version: '11'
-        distribution: 'adopt'
+      - name: set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
 
-    - name: Dar permisos al Lanzador (Gravel)
-      run: chmod +x gradlew
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
-    - name: Compilando APK de Cosmo
-      run: ./gradlew assembleRelease
+      - name: Build with Gradle
+        run: ./gradlew assembleDebug
 
-    - name: Guardar APK Resultante
-      uses: actions/upload-artifact@v2
-      with:
-        name: Cosmo_Imperio_Release
-        path: app/build/outputs/apk/release/app-release.unsigned.apk
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Cosmo-Empire-Debug
+          path: app/build/outputs/apk/debug/app-debug.apk
