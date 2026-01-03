@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="z_gift_001_activator" type="id">Ticket Zenith (1 Moneda)</item>
+    
+    <item name="z_gift_price_5" type="id">Rayo de Bronce</item>
+    <item name="z_gift_price_10" type="id">Estrella Zenith</item>
+    <item name="z_gift_price_15" type="id">Corazón Fugaz</item>
+    <item name="z_gift_price_20" type="id">Escudo de Plata</item>
+    <item name="z_gift_price_25" type="id">Daga Imperial</item>
+    <item name="z_gift_price_30" type="id">Cofre de Cobre</item>
+    <item name="z_gift_price_35" type="id">Llama de Oro</item>
+    <item name="z_gift_price_40" type="id">Anillo Zenith</item>
+    <item name="z_gift_price_45" type="id">Capa Real</item>
+    <item name="z_gift_price_50" type="id">Corona de Fan</item>
+    <item name="z_gift_price_55" type="id">Espada de Plata</item>
+    <item name="z_gift_price_60" type="id">Halcón Dorado</item>
+    <item name="z_gift_price_65" type="id">Esmeralda Cosmo</item>
+    <item name="z_gift_price_70" type="id">Cetro Imperial</item>
+    <item name="z_gift_price_75" type="id">León de Oro</item>
+    <item name="z_gift_price_80" type="id">Tridente Zenith</item>
+    <item name="z_gift_price_85" type="id">Casco de Gladiador</item>
+    <item name="z_gift_price_90" type="id">Carroza de Oro</item>
+    <item name="z_gift_price_95" type="id">Dragón de Fuego</item>
+    <item name="z_gift_price_100" type="id">Trono del Imperio</item>
+
+    <integer name="z_total_gift_slots">100</integer>
+    <integer name="z_price_increment_step">5</integer>
+</resources>

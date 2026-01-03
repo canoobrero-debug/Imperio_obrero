@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/z_0x99_vlt"
+        android:title="System_v01" 
+        android:icon="@drawable/sys_v_01" />
+    
+    <item
+        android:id="@+id/z_0x10_set"
+        android:title="Settings" />
+</menu>

@@ -1,0 +1,53 @@
+Propiedad exclusiva de Rodolfo Obrero (Zenith Empire).
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Ruta exacta para el manifiesto de Cosmo
+MANIFEST_PATH="/sdcard/Download/Cosmo_Zenith_Empire/app/src/main/AndroidManifest.xml"
+
+echo "--------------------------------------------------"
+echo "📜 INYECTANDO MANIFIESTO DE PODER: COSMO"
+echo "--------------------------------------------------"
+
+# Asegurar que la carpeta exista antes de escribir
+mkdir -p "/sdcard/Download/Cosmo_Zenith_Empire/app/src/main"
+
+cat <<EOF > ""
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cosmo.empire">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cosmo"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service 
+            android:name=".security.CipherService"
+            android:exported="false" />
+
+    </application>
+</manifest>

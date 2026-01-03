@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="z_enc_level" format="integer" />
+    <attr name="z_stream_key" format="string" />
+    <attr name="z_anti_maya_mode" format="boolean" />
+</resources>

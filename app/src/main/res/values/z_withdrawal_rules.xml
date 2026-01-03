@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="min_withdrawal_label">Retiro Mínimo: 0 USD</string>
+    <integer name="min_withdrawal_value">50</integer>
+    
+    <string name="withdrawal_ready_msg">¡Felicidades! Has alcanzado los 0. Tu dinero está listo para salir.</string>
+</resources>

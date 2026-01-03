@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:background="@drawable/bg_banner_zenith"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <ImageView
+        android:id="@+id/z_entry_rank_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_fan_insignia" />
+
+    <TextView
+        android:id="@+id/z_entry_user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/z_entry_rank_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/gold_zenith"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="¡ELITE [USER] HA LLEGADO!" />
+</RelativeLayout>

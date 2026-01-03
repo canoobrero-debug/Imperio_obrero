@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="payout_speed_target">INSTANT</string>
+    <bool name="bypass_manual_review">true</bool> <string-array name="instant_networks">
+        <item>PIX_PROTOCOL</item>
+        <item>SEPA_INSTANT</item>
+        <item>CRYPTO_LIGHTNING</item>
+        <item>LOCAL_BANK_FAST_TRACK</item>
+    </string-array>
+
+    <integer name="obrero_priority_split">1</integer>
+</resources>

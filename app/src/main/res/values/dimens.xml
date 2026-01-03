@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="z_margin_standard">16dp</dimen>
+    <dimen name="z_gold_button_height">56dp</dimen>
+    <dimen name="z_stream_overlay_padding">20dp</dimen>
+    <dimen name="z_profile_icon_max">60dp</dimen>
+    <dimen name="z_video_border_radius">0dp</dimen> </resources>

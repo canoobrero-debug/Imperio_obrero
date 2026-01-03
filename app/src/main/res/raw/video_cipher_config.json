@@ -1,0 +1,6 @@
+{
+  "codec_mask": "0x5A_ZENITH",
+  "encryption_mode": "AES_256_DYNAMIC",
+  "anti_copy_bit": 1,
+  "maya_mtv_block": "true"
+}

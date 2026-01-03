@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg_banner_zenith">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:text="MIS MONEDAS COSMO"
+            android:textColor="#CCCCCC"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/z_balance_coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="🪙 5,000"
+            android:textColor="@color/gold_zenith"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:
+@echo off
+title Thermo Gemini - Zenith Empire Control
+color 0A
+cls
+
+echo =====================================================
+echo    ZENITH EMPIRE - AUTOMATIZACION COSMO
+echo    ACCESO: OBRERO | ESTADO: ENCRIPTANDO
+echo =====================================================
+
+:: Definicion de rutas
+set "ROOT_DIR=Eart_Gemini_Empire"
+set "PROJECT=Cosmo"
+set "LOGIC_PATH=%ROOT_DIR%\%PROJECT%\src\logic"
+
+:: Crear directorios de forma automatica
+if not exist "%LOGIC_PATH%" (
+    mkdir "%LOGIC_PATH%"
+    echo [+] Carpeta de logica creada en %LOGIC_PATH%
+)
+
+:: --- GENERACION Y CIFRADO DE ARCHIVOS ---
+
+echo [*] Inyectando Core de Logica...
+echo ^<engine^>ALGORITMO_COSMO_V1^</engine^> > "%LOGIC_PATH%\engine.tmp"
+
+echo [*] Configurando Boveda (40%% Obrero / 10%% Reserve)...
+echo ^<vault^>PERCENT_40_USER_10_VAULT^</vault^> > "%LOGIC_PATH%\economy.tmp"
+
+echo [*] Aplicando blindaje contra apps externas...
+:: Este comando simula el cifrado directo para que no sea legible por texto plano
+for %%f in ("%LOGIC_PATH%\*.tmp") do (
+    certutil -encode "%%f" "%%~dpnf.xml" >nul
+    del "%%f"
+)
+
+:: --- REGLA DE PROTECCION ---
+echo [*] Denegando acceso a aplicaciones externas (Maya MTV/Others)...
+attrib +h +s +r "%ROOT_DIR%" /S /D
+
+echo =====================================================
+echo [!] PROCESO TERMINADO: CARPETA LOGICA COMPLETADA
+echo [!] TODO ENVIADO DIRECTAMENTE AL ZENITH EMPIRE
+echo =====================================================
+pause
+#!/data/data/com.termux/files/usr/bin/bash
+
+VALUES_DIR="/sdcard/Download/Cosmo_Zenith_Empire/app/src/main/res/values"
+LAYOUT_DIR="/sdcard/Download/Cosmo_Zenith_Empire/app/src/main/res/layout"
+
+echo "--------------------------------------------------"
+echo "CONFIGURANDO: 10 GRATIS + 10 VIP DE LA STORE"
+echo "--------------------------------------------------"
+
+# 1. Definición de Inventario para la Store (z_store_items.xml)
+cat <<EOT > "/sdcard/Download/Cosmo_Zenith_Empire/app/src/main/res/values/z_store_inventory.xml"
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="store_item_vip_seat_id">z_pass_imperial_seat</string>
+    <string name="store_item_vip_price">15.00</string> <integer name="z_standard_slots_count">10</integer>
+    <integer name="z_premium_store_slots_count">10</integer>
+    
+    <bool name="z_apply_obrero_tax_store">true</bool>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "vault_key": "0x5A4E495448",
+  "p2p_secure": true,
+  "obfuscation_level": "maximus",
+  "maya_blocker": "enabled"
+}

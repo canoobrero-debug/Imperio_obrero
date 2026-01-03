@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="z_0x10_vault"
+        android:enabled="true"
+        android:icon="@drawable/sys_v_01"
+        android:shortcutShortLabel="@string/z_0x10_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.zenith.empire.cosmo"
+            android:targetClass="com.zenith.empire.cosmo.MainActivity" />
+    </shortcut>
+</shortcuts>

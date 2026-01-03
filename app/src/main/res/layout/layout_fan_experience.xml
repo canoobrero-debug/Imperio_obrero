@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/z_fan_badge"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_fan_insignia" />
+
+    <ProgressBar
+        android:id="@+id/z_xp_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_toEndOf="@id/z_fan_badge"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:progressDrawable="@drawable/gold_progress_gradient" />
+</RelativeLayout>

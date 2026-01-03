@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="loyalty_milestone_coins">30000</integer>
+    <string name="loyalty_congratulations_msg">¡Felicidades Noble Donador! Has alcanzado la meta de 30,000 monedas. Eres elegible para el gran sorteo semanal.</string>
+    <string name="reward_option_a">Monedas del Imperio (Bonificación 20%)</string>
+    <string name="reward_option_b">Liquidación de Dinero Real (Cash-out)</string>
+</resources>

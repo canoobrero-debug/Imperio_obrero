@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="withdrawal_method">DIRECT_CASH_EXCHANGE</string>
+    <bool name="require_agent_validation">true</bool>
+    
+    <string name="imperial_exchange_rate">1.0_PARITY</string>
+    
+    <bool name="lock_obrero_tax_on_withdrawal">true</bool>
+</resources>

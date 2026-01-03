@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="z_fanclub_name">Zenith Elite</string>
+    <string name="z_fanclub_price">9.99</string> <bool name="z_fanclub_badge_enabled">true</bool>
+    <string name="z_fanclub_exclusive_chat">active</string>
+</resources>

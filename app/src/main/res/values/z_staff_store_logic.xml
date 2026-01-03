@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="z_staff_pack_id">z_imperial_staff_extension_10</string>
+    
+    <string-array name="z_allowed_purchasers">
+        <item>HOST</item>
+        <item>SUPER_MODERATOR</item>
+        <item>MODERATOR</item>
+    </string-array>
+
+    <string name="z_staff_expansion_duration">24_HOURS</string>
+    
+    <integer name="z_obrero_tax_staff_purchase">40</integer>
+</resources>

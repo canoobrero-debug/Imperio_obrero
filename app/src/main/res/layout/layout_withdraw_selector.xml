@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/bg_banner_zenith">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECCIONA TU BANCO / MONEDA LOCAL"
+        android:textColor="@color/gold_zenith"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/z_currency_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#33FFFFFF" />
+
+    <TextView
+        android:id="@+id/z_conversion_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Recibirás aproximadamente: --"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="z_xp_per_coin">15</integer>
+    
+    <color name="z_fan_lvl_1">#CD7F32</color> <color name="z_fan_lvl_50">#C0C0C0</color> <color name="z_fan_lvl_100">@color/gold_zenith</color> </resources>

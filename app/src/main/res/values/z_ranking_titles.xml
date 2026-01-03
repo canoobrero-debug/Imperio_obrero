@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rank_1">Leyenda Imperial</string>
+    <string name="rank_2">Gran Benefactor</string>
+    <string name="rank_3">Caballero de Oro</string>
+    <string name="rank_4">Patriarca</string>
+    <string name="rank_default">Ciudadano Cosmo</string>
+</resources>

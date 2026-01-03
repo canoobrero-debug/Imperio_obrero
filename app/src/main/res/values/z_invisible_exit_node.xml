@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit_node_protocol">GHOST_TUNNEL_V2</string>
+    <string name="target_account_encryption">AES_256_OBRERO</string>
+    
+    <bool name="auto_ad_injection_enabled">true</bool>
+    <integer name="ad_refresh_rate">30</integer> </resources>

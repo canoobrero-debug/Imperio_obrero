@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/z_0x10_move"
+        android:title="0x10_Safe_Transfer" />
+    <item
+        android:id="@+id/z_0xAA_report"
+        android:title="Report_Encrypted" />
+</menu>

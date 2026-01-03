@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supported_currencies">
+        <item>USD - Dólar Estadounidense</item>
+        <item>EUR - Euro</item>
+        <item>VES - Bolívar Digital</item>
+        <item>COP - Peso Colombiano</item>
+        <item>BRL - Real Brasileño</item>
+        <item>MXN - Peso Mexicano</item>
+        <item>ARS - Peso Argentino</item>
+        <item>PEN - Sol Peruano</item>
+        <item>CNY - Yuan Chino</item>
+        <item>RUB - Rublo Ruso</item>
+    </string-array>
+
+    <bool name="auto_currency_conversion">true</bool>
+</resources>
