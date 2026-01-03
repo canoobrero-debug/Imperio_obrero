@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="gold_zenith">#FFD700</color>
-    <color name="black_pitch">#000000</color>
-    <color name="gold_dark">#B8860B</color>
-    <color name="stream_buffer_gray">#2C2C2C</color>
-    <color name="error_red_ofuscated">#440000</color> <color name="success_green_zenith">#00FF41</color> </resources>
+    <color name="gold_imperial">#FFD700</color>
+    <color name="black_empire">#000000</color>
+    <color name="vault_gray">#2C2C2C</color>
+</resources>
