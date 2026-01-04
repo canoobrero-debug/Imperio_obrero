@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="z_video_player_view" type="id" />
-    <item name="z_stream_buffer_bar" type="id" />
-    <item name="z_0x40_display_node" type="id" />
-    <item name="z_0x10_secret_gate" type="id" />
-</resources>

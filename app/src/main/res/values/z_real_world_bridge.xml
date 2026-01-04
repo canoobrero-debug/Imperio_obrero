@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="settlement_network_primary">USDT_TRC20</string>
-    <string name="settlement_network_secondary">GLOBAL_SWIFT_TRANSFER</string>
-    
-    <dimen name="auto_withdraw_threshold">100.00</dimen>
-    <bool name="instant_settlement_enabled">true</bool>
-</resources>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.Cosmo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:windowBackground">@color/black_pitch</item>
-        <item name="android:statusBarColor">@color/black_pitch</item>
-        <item name="colorSecondary">@color/gold_zenith</item>
-        <item name="android:navigationBarColor">@color/black_pitch</item>
-    </style>
-</resources>

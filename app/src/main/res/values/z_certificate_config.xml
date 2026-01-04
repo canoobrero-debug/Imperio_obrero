@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="z_cert_title">DUEÑO IMPERIAL DE VENTANILLAS</string>
-    <string name="z_cert_footer">Otorgado por Zenith Empire</string>
-    
-    <item name="z_cert_owner_name" type="id" />
-</resources>

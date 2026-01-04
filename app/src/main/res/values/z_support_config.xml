@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="support_channel_id">IMPERIAL_DIRECT_LINE</string>
-    <bool name="show_only_to_host">true</bool>
-    <bool name="disable_in_spectator_mode">true</bool>
-    
-    <string name="support_welcome_msg">Saludos, Anfitrión. El Imperio está listo para asistirte. ¿En qué podemos ayudarte hoy?</string>
-</resources>

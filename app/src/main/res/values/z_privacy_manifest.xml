@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="data_privacy_level">IMPERIAL_Obrero_PRIVATE</string>
-    <bool name="disallow_file_sharing">true</bool>
-    <bool name="hidden_from_system_search">true</bool>
-    
-    <string name="encryption_salt">Cosmo_Zenith_777_Private_Key</string>
-</resources>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="z_xp_base_low">100</integer>
-    
-    <string name="z_difficulty_multiplier">1.25</string>
-    
-    <integer name="z_xp_boost_requirement">500</integer> <string name="z_msg_level_up_hard">¡Estás a punto de la grandeza! Envía un Trono para subir de nivel.</string>
-</resources>

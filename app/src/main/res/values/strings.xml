@@ -1,8 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cosmo</string>
-    <string name="z_stream_url_mask">0x5F_PROTECTED_FEED</string>
-    <string name="z_codec_priority">HARDWARE_ENC</string>
-    <string name="z_0x40_val">VAL_ID_OBRERO</string>
-    <string name="z_0x10_res">VAL_ID_VAULT</string>
-    <string name="z_pay_status">Z_SYNCHRONIZED</string>
+    <string name="welcome_message">Bienvenido al Imperio</string>
 </resources>

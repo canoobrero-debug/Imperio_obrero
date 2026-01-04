@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="label_mod_imperial">MODERADOR ZENITH</string>
-    <color name="mod_glow_color">#FFD700</color> <color name="mod_text_color">#FFFFFF</color>
-    
-    <bool name="mod_can_buy_vip_slots">true</bool>
-    <bool name="mod_can_mute_lightning">true</bool>
-</resources>
